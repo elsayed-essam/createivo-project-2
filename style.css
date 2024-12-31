@@ -1,0 +1,25 @@
+body{
+    background-color: #54595f65;
+    width: 50%;
+    margin: auto;
+    color:black;
+    padding:10px ;
+
+}
+h1{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+hr{
+    width: 70% ;
+    /* color: aqua; */
+    height: 5px;
+    background-color: rgba(0, 0, 0, 0.402);
+    border-radius: 3px;
+}
+input,textarea,select
+{
+    border-radius: 10px;
+}

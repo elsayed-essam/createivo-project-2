@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pro_2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>form & type input  </h1>
+<form action="/action_page.php" target="_top">
+    <h2>form field to text & password</h2>
+    <br>
+    <!-- favorat from my look write label firstly and input secondaly -->
+    <label for="fname">First name: </label>
+    <input type="text" id="fname" name="fname" placeholder="first-name" >
+    <!-- value="" is returne vlaue from input to backend -->
+    <br>
+    <label for="lname">Last name: </label>
+    <input type="text" id="lname" name="lname"  placeholder="last-name">
+    <br>
+    <label for="password"> password :</label>
+    <input type="password"  name="password" id="password" placeholder="password">
+    <hr>
+    <!-- this input is hidden and show as ** -->
+    <br>
+    <h2> chacked your fav-language radio is select one choose</h2>
+    <!-- Radio buttons let a user select ONE of a limited number of choices. -->
+        <!-- favorat from my look write input firstly and label secondaly -->
+    <input type="radio" id="html" name="fav-language" checked value="html">
+    <label for="html" > html</label>
+    <br> 
+    <input type="radio" id="css" name="fav-language"  value="css">
+    <label for="css" > css</label>
+    <br>
+    <input type="radio" id="js" name="fav-language"  value="js">
+    <label for="js" > js</label>
+    <br>
+    <!-- Checkboxes let a user select ZERO or MORE options of a limited number of choices. -->
+    <!-- favorat from my look write input firstly and label secondaly -->
+    <hr>
+
+    <h2>Checkboxes</h2>
+    <p>The <strong>input type="checkbox"</strong> defines a checkbox:</p>
+    <input type="checkbox" name="char1" value="bmw" id=" car1" >
+    <label for="char1"> bmw car</label>
+    <br>
+    <input type="checkbox" name="char2" value="marcedes" id=" car2" checked >
+    <label for="char2"> marcedes car</label>
+    <br>
+    <input type="checkbox" name="char3" value="toyota" id=" car3" checked >
+    <label for="char3"> toyota car</label>
+    <br>
+    <hr>
+    <h2>select & option</h2>
+    <!-- select element defines a drop-down list: -->
+    <label for="cars">Choose a car:</label>
+    <select id="cars" name="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi">Audi</option>
+    </select>
+    <br>
+    <br>
+    <label for="fav-2"> choos your favaourait language</label>
+    <select name="language-fav" id="fav-2" >
+        <option value="bmw">bmw</option>
+        <option value="fait" selected>fiat</option>
+        <option value="audi">audi</option>
+    </select>
+    <br>
+    <hr>
+    <!-- to write a comment choose this input  =>>"texterea" -->
+    <label for="comment"> write your comment</label>
+    <br>
+    <h2>textarea</h2>
+    <textarea name="comment's" id="comment" >
+        comment....
+    </textarea>
+    <br>
+    <hr>
+    <h2>fieldset</h2>
+    <fieldset>
+            <legend>Personalia:</legend>
+            <br>
+            <label for="fname1">First name:</label>
+            <input type="text" id="fname1" name="fname1" placeholder="First name:">
+            <br>
+            <label for="lname1">Last name:</label>
+            <input type="text" id="lname1" name="lname1" placeholder="Last name:">
+            <br>
+    </fieldset>
+    <br>
+    <h2> submit & reset input </h2>
+    <!-- If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php". -->
+    <input type="submit" value="Submit">
+    <br>
+    <!-- to delet all data -->
+    <input type="reset" value="Reset">
+</form>
+</body>
+</html>
